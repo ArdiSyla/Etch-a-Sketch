@@ -11,3 +11,7 @@
     border: 1px solid black;
     box-sizing: border-box; /* Ensures border is included in the square size */
   }
+
+  .hovered {
+    background-color: red; 
+  }
