@@ -26,12 +26,10 @@ body {
     box-sizing: border-box; /* Ensures border is included in the square size */
 
   }
-
-  button {
+  button-container {
+    display: flex;
+    gap: 10px; 
     margin-bottom: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
   }
 
   .hovered {
