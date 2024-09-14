@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* 16 squares * 20px */
+    height: 320px; /* 16 squares * 20px */
+  }
+  
+  .square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    box-sizing: border-box; /* Ensures border is included in the square size */
+  }
